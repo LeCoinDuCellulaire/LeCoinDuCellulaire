@@ -1005,6 +1005,15 @@ pre code {
 		align-items: stretch;
 	}
 
+	@media screen and (max-width: 1140px) {
+		.navbar {
+			flex-direction: row;
+			/* Empiler les éléments en colonne */
+			align-items: flex-end;
+			/* Aligner les éléments à gauche */
+		}
+	}
+
 	.row>* {
 		box-sizing: border-box;
 	}
